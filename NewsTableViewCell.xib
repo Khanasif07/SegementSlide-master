@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" focusStyle="custom" rowHeight="195" id="9oC-LZ-FkK" customClass="NewsTableViewCell" customModule="Hi_Dubai" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="416" height="195"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9oC-LZ-FkK" id="OPa-9X-hjY">
+                <rect key="frame" x="0.0" y="0.0" width="416" height="195"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i4Q-YW-tWo">
+                        <rect key="frame" x="7.6666666666666572" y="5" width="401" height="185"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_programming.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="23c-bw-Mkq">
+                                <rect key="frame" x="15" y="15" width="155" height="155"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="23c-bw-Mkq" secondAttribute="height" id="aDK-Jn-gDE"/>
+                                    <constraint firstAttribute="height" constant="155" id="d1x-W4-loR"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="skeletonCornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="KDU-nz-ZTA">
+                                <rect key="frame" x="185" y="15" width="206" height="96.333333333333329"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UAE to ease COVID-19 19 " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wGb-sH-DWm">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Government" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Esm-Wp-Nh5" customClass="UserTagLabel" customModule="Hi_Dubai" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="25.333333333333336" width="94" height="20.333333333333336"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="2.5" translatesAutoresizingMaskIntoConstraints="NO" id="M3x-zu-lSk">
+                                        <rect key="frame" x="0.0" y="50.666666666666671" width="202.66666666666666" height="20.333333333333329"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="26 dec, 2022" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Xe-tC-1rL">
+                                                <rect key="frame" x="0.0" y="0.0" width="102" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- 5 read time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kcr-Jh-PEy">
+                                                <rect key="frame" x="104.66666666666666" y="0.0" width="98" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                        </subviews>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Lorem ipsum dolor sit" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lqr-sd-KYW">
+                                        <rect key="frame" x="0.0" y="76" width="164.33333333333334" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                </subviews>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="KDU-nz-ZTA" firstAttribute="top" secondItem="23c-bw-Mkq" secondAttribute="top" id="9Gr-ju-P0Q"/>
+                            <constraint firstAttribute="trailing" secondItem="KDU-nz-ZTA" secondAttribute="trailing" constant="10" id="A0Q-je-wpl"/>
+                            <constraint firstItem="KDU-nz-ZTA" firstAttribute="leading" secondItem="23c-bw-Mkq" secondAttribute="trailing" constant="15" id="HZr-yn-3vN"/>
+                            <constraint firstItem="23c-bw-Mkq" firstAttribute="leading" secondItem="i4Q-YW-tWo" secondAttribute="leading" constant="15" id="SwV-9G-XgW"/>
+                            <constraint firstItem="KDU-nz-ZTA" firstAttribute="bottom" relation="lessThanOrEqual" secondItem="23c-bw-Mkq" secondAttribute="bottom" id="bvL-2S-DKX"/>
+                            <constraint firstItem="23c-bw-Mkq" firstAttribute="centerY" secondItem="i4Q-YW-tWo" secondAttribute="centerY" id="crl-i9-AbQ"/>
+                            <constraint firstItem="23c-bw-Mkq" firstAttribute="top" secondItem="i4Q-YW-tWo" secondAttribute="top" constant="15" id="o23-Ez-T35"/>
+                            <constraint firstAttribute="bottom" secondItem="23c-bw-Mkq" secondAttribute="bottom" constant="15" id="ujA-bR-mv3"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="i4Q-YW-tWo" secondAttribute="trailing" constant="7.5" id="8hI-2D-obg"/>
+                    <constraint firstItem="i4Q-YW-tWo" firstAttribute="leading" secondItem="OPa-9X-hjY" secondAttribute="leading" constant="7.5" id="bsc-iF-PDP"/>
+                    <constraint firstAttribute="bottom" secondItem="i4Q-YW-tWo" secondAttribute="bottom" constant="5" id="iT9-yi-Rjq"/>
+                    <constraint firstItem="i4Q-YW-tWo" firstAttribute="top" secondItem="OPa-9X-hjY" secondAttribute="top" constant="5" id="njP-5w-gSg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="bof-Ul-Nob"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <connections>
+                <outlet property="dataContainerView" destination="i4Q-YW-tWo" id="ffM-oe-j74"/>
+                <outlet property="dateLbl" destination="0Xe-tC-1rL" id="B1B-JE-hRS"/>
+                <outlet property="descLbl" destination="Lqr-sd-KYW" id="wAR-4n-Vu3"/>
+                <outlet property="newsImgView" destination="23c-bw-Mkq" id="kfL-C3-5ax"/>
+                <outlet property="timeLbl" destination="Kcr-Jh-PEy" id="bzA-4S-3VB"/>
+                <outlet property="titleLbl" destination="wGb-sH-DWm" id="omd-nW-14Q"/>
+            </connections>
+            <point key="canvasLocation" x="172.51908396946564" y="63.028169014084511"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bg_programming.jpg" width="630" height="473"/>
+    </resources>
+</document>
